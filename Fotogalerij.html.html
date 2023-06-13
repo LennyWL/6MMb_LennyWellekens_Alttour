@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ALTTOUR</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<section class="sub-header">
+  <nav>
+  <a href="index.html"><img src="Footage/DefLogo_wit.png" alt="Logo"></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fas fa-times" id="closeIcon"></i>
+    <ul>
+       <li><a href="index.html">Startpagina</a></li>
+      <li><a href="about.html.html">Over ons</a></li>
+      <li><a href="Fotogalerij.html.html">Fotogalerij</a></li>
+      <li><a href="contact.html.html">Contact</a></li>
+    </ul>
+  </div>
+  <i class="fas fa-bars" id="hamburger"></i>
+</nav>
+<h1>Fotogalerij</h1>
+</section>
+
+<!------- Fotogalerij pagina------>
+
+ <div class="photo-container">
+    <div class="photo-item">
+      <img src="Footage/Baggage.jpg" alt="Photo 1">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/Bergen+sneeuw.jpg" alt="Photo 2">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/Foto+Kaart.jpg" alt="Photo 3">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/Vliegtuig_Vieuw.jpg" alt="Photo 4">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2090-min.jpg" alt="Photo 5">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2134-min.jpg" alt="Photo 6">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2154-min.jpg" alt="Photo 7">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2157-min.jpg" alt="Photo 9">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2158-min.jpg" alt="Photo 10">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2171-min.jpg" alt="Photo 11">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2175-min.jpg" alt="Photo 12">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2181-min.jpg" alt="Photo 13">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2184-min.jpg" alt="Photo 14">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2189-min.jpg" alt="Photo 15">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2196-min.jpg" alt="Photo 16">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2197-min.jpg" alt="Photo 17">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-7033-min.jpg" alt="Photo 18">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-8283-min.jpg" alt="Photo 19">
+    </div>
+    <div class="photo-item">
+      <img src="Footage/IMG-2107-min.jpg" alt="Photo 20">
+    </div>
+
+  </div>
+
+	<script>
+		
+var navLinks = document.getElementById("navLinks");
+var hamburger = document.getElementById("hamburger");
+var closeIcon = document.getElementById("closeIcon");
+
+function toggleMenu() {
+  navLinks.classList.toggle("show");
+}
+
+hamburger.addEventListener("click", toggleMenu);
+closeIcon.addEventListener("click", toggleMenu);
+
+
+
+
+
+	</script>
+
+<section class="footer">
+	<h4>Over ons</h4>
+	<p>Bij AltTour geloven we in de kracht van sociaal reizen om levens te verrijken.<br>Ontdek met ons de wereld op een authentieke en betekenisvolle manier.</p>
+	<div class="icons">
+		<a href=https://www.facebook.com/profile.php?id=100092718327972><i class="fab fa-facebook"></i></a>
+		<a href="https://www.instagram.com/alttour_socialtraveling/"><i class="fab fa-instagram"></i></a>
+		<a href=https://twitter.com/ALTTOUR_><i class="fab fa-twitter"></i></a>
+		<a href="https://www.youtube.com/channel/UCXrTINKTyLKycTUyaQlUZKg"><i class="fab fa-youtube"></i></a>
+	</div>
+</section>
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+	 <script src="script.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+</body>
+</html>
